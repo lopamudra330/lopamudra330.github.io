@@ -7,7 +7,7 @@
 export const profile = {
   name: "Lopamudra Panigrahi",
   headline:
-    "Prospective researcher exploring intelligent, reliable, and scalable systems through applied research and technical experimentation.",
+    "Telecommunications engineer seeking research positions in smart energy systems and cyber-physical systems, with a focus on reliable, data-driven communication.",
   roles: [
     "Aspiring researcher",
     "Prospective master's student",

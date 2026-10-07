@@ -2,6 +2,8 @@ import Hero from "./Hero.jsx";
 import Education from "./Education.jsx";
 import ResearchDirection from "./ResearchDirection.jsx";
 import ResearchApproach from "./ResearchApproach.jsx";
+import CurrentFocus from "./CurrentFocus.jsx";
+import ResearchJourney from "./ResearchJourney.jsx";
 import { profile } from "../data/profile.js";
 
 function SimpleList({ id, title, items }) {
@@ -21,6 +23,7 @@ export default function About() {
   return (
     <div className="wrap">
       <Hero />
+      <CurrentFocus />
 
       <section className="block" aria-labelledby="bio-h">
         <h2 id="bio-h">Biography</h2>
@@ -31,6 +34,7 @@ export default function About() {
         ))}
       </section>
 
+      <ResearchJourney />
       <ResearchDirection />
       <ResearchApproach />
 
